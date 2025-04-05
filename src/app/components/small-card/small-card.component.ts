@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, input, Input, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-small-card',
@@ -6,6 +6,12 @@ import { Component } from '@angular/core';
   templateUrl: './small-card.component.html',
   styleUrl: './small-card.component.css'
 })
-export class SmallCardComponent {
-
+export class SmallCardComponent implements OnInit {
+  ngOnInit(): void {
+    throw new Error('Method not implemented.');
+  }
+  @Input()
+  photoCover: string = ""
+  @Input()
+  cardTitle: string = ""
 }
