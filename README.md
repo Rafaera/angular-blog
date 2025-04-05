@@ -1,59 +1,24 @@
-# AngularBlog
+# Blog Angular 
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.2.5.
+Este é um projeto simples desenvolvido com **Angular** como exercício proposto no **Bootcamp Decola Tech 2025 da Digital Innovation One (DIO)**. O objetivo é praticar os fundamentos do Angular em um projeto de blog.
 
-## Development server
+## Sobre o projeto
 
-To start a local development server, run:
+O **Blog Angular** é uma aplicação básica criada durante o bootcamp, sem funcionalidades completas. Foi desenvolvido com o intuito de fixar conceitos como:
 
-```bash
-ng serve
-```
+- Estrutura de um projeto Angular
+- Criação de componentes
+- Utilização de data binding (vinculação de dados)
+- Organização de arquivos no Angular
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+## Tecnologias utilizadas
 
-## Code scaffolding
+- [Angular](https://angular.io/)
+- Visual Studio Code
+- TypeScript
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
-
-```bash
-ng generate component component-name
-```
-
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
-
-```bash
-ng generate --help
-```
-
-## Building
-
-To build the project run:
-
-```bash
-ng build
-```
-
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
-
-## Running unit tests
-
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
-
-```bash
-ng test
-```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+<div style="display: flex; gap: 20px; align-items: center; justify-content: center; text-align: center">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/angularjs/angularjs-original.svg" alt="Angular" width="40" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" alt="TypeScript" width="40" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" alt="VS Code" width="40" />
+</div>
