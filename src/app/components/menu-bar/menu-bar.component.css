@@ -1,0 +1,12 @@
+.container__menu-bar > ul {
+    display: flex;
+    flex-direction: row;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #252021;
+    font-weight: 640;
+}
+
+.container__menu-bar > ul > li {
+    margin-right: 20px;
+    list-style: none;
+}
